@@ -1,0 +1,72 @@
+/* =========================================================
+   1. HINTERGRÜNDE TRANSPARENT MACHEN
+   ========================================================= */
+html, body,
+.container, .container-fluid,
+.card, .card-body, .card-footer,
+.panel, .panel-body,
+.well, .jumbotron, .bg-white, .bg-light,
+table, .table, .table td, .table th {
+  background-color: transparent !important;
+  background: transparent !important;
+}
+
+/* Eingabefelder leicht transparent-weiß lassen, damit Text lesbar bleibt */
+input.form-control, select.form-control, textarea.form-control {
+  background-color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* =========================================================
+   2. BALKEN, BUTTONS & AKZENTE IN DEINEM LOGO-ROT (#C11B1D)
+   ========================================================= */
+/* Balken, Tabellenköpfe, Karten-Header & Badges */
+.bg-primary,
+.card-header,
+.panel-heading,
+.table thead th,
+.navbar,
+.badge-primary,
+.progress-bar {
+  background-color: #C11B1D !important;
+  border-color: #C11B1D !important;
+  color: #ffffff !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #C11B1D !important;
+  border-color: #C11B1D !important;
+  color: #ffffff !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #921315 !important;
+  border-color: #921315 !important;
+  color: #ffffff !important;
+}
+
+/* Outline-Buttons & Rahmen */
+.btn-outline-primary {
+  color: #C11B1D !important;
+  border-color: #C11B1D !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #C11B1D !important;
+  color: #ffffff !important;
+}
+
+.border-primary {
+  border-color: #C11B1D !important;
+}
+
+/* Links & blaue Texte */
+a, .text-primary {
+  color: #C11B1D !important;
+}
+
+a:hover {
+  color: #921315 !important;
+}
